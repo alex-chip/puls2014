@@ -25,6 +25,9 @@ function agregarPost(){
 	$list.prepend($clone);
 
 	$clone.fadeIn();
+	$titulo.val("");
+	$url.val("");
+	$titulo.focus();
 	return false;
 }
 
