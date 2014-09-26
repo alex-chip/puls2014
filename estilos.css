@@ -10,6 +10,8 @@
 
 }*/
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('fuentes/icomoon.eot?hriq55');
@@ -198,6 +200,12 @@ nav ul #publicar_nav a
 nav ul #publicar_nav a:hover
 {
 	box-shadow: 5px 5px 90px 5px yellow;
+}
+
+nav ul #publicar_nav a.disabled{
+	background-color: grey;
+	cursor: default;
+	box-shadow: none;
 }
 
 nav ul #publicar_nav a:before
